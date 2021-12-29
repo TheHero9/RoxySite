@@ -1,0 +1,313 @@
+body{
+  font-family: "Montserrat";
+  background-color: #FEE3EC;
+}
+
+
+/* Colour palette */
+/* #FEE3EC
+#F9C5D5
+#F999B7
+#F2789F */
+
+
+
+/* Navigation Bar */
+
+#title{
+  font-size: 1.5rem;
+  /* padding: 1.5rem 2.5rem; */
+  background-color: #FEE3EC;
+  font-family: 'Merriweather', serif;
+  margin: 50px;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  margin-right: 20% ;
+}
+
+.container-fluid{
+    padding: 1% 5% 1% 5%;
+    background-color: #F999B7;
+    border-radius: 70px;
+}
+
+
+
+/* Logo Section */
+
+#logo-section{
+  background-color: #F9C5D5;
+  padding: 5% 10%;
+  font-family: 'Montserrat';
+  border-radius: 90px;
+  margin: 50px;
+}
+
+.section1{
+  position: relative;
+  height: auto;
+}
+
+.logo{
+  border-radius: 120px;
+  height: 180px;
+  position: relative;
+  float: left;
+  margin-right: 40px;
+}
+
+  .brand-name{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+hr{
+  border: 1px solid #B000B9;
+  width: 50%;
+  margin: auto;
+
+
+}
+
+
+/* Carousel */
+#carousel1{
+  background-color: #FEE3EC;
+  text-align: center;
+}
+
+.section2{
+  position: relative;
+}
+
+.carousel-item{
+  padding: 5% 10%;
+}
+
+.img{
+  width: 20%;
+  margin-top: 40px;
+}
+
+.carousel-text{
+  margin: 0%;
+}
+
+.carousel-control-prev-icon{
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width:600px){
+  .img{
+    width: 30%;
+  }
+}
+
+/* Footer */
+
+#footer{
+  background-color: #F999B7;
+  text-align: center;
+  padding: 1% 5% 0%;
+  color: white;
+  border-radius: 120px;
+  margin: 50px;
+
+}
+
+
+.footer-link{
+  font-size: 1.5rem;
+  color: #B000B9;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.footer-link:hover{
+  color: #FEE3EC;
+}
+
+@media (max-width: 768px){
+  .phone-res{
+    font-size: 110%;
+  }
+}
+
+/*Divider Logo Section*/
+
+.shapedividers_com-1919{
+overflow:hidden;
+position:relative;
+}
+.shapedividers_com-1919::before{
+content:'';
+font-family:'shape divider from ShapeDividers.com';
+position: absolute;
+bottom: -1px;
+left: -1px;
+right: -1px;
+top: -1px;
+z-index: 3;
+pointer-events: none;
+background-repeat: no-repeat;
+background-size: 85px 100%;
+background-position: 100% 50%;
+background-image: url('data:image/svg+xml;charset=utf8, <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 1000"><g fill="%23fee3ec"><path opacity=".5" d="M13.2.1h12.3l19.2 220.7L71 .1h11.2l-38 250-31-250z"/><path opacity=".5" d="M25.5.1h8.8l12.6 145.2L64.2.1H71L44.7 220.8 25.5.1z"/><path opacity=".5" d="M25.5.1h8.8l12.6 145.2L64.2.1H71L44.7 220.8 25.5.1z"/><path opacity=".5" d="M34.3.1h29.9L46.9 145.3 34.3.1z"/><path opacity=".5" d="M34.3.1h29.9L46.9 145.3 34.3.1z"/><path opacity=".75" d="M34.3.1h29.9L46.9 145.3 34.3.1z"/><path opacity=".5" d="M44.2 750.1l38 250H70L43.7 779.4l-19.2 220.7H13.2l31-250z"/><path d="M82.2 500.1l-38-250-31 250 31 250zM43.7 279.4L70 500.1 43.7 721 24.5 500z" opacity=".5"/><path d="M82.2 500.1l-38-250 38-250h18v1000h-18l-38-250 38-250z"/><path d="M70 500.1L43.7 279.4 24.5 500.1 43.7 721zM44.6 335.6L64.2 500 44.6 664.7 30.3 500.1z" opacity=".5"/><path d="M70 500.1L43.7 279.4 24.5 500.1 43.7 721zM44.6 335.6L64.2 500 44.6 664.7 30.3 500.1z" opacity=".5"/><path opacity=".5" d="M44.6 664.7L30.3 500.1l14.3-164.5 19.6 164.5-19.6 164.6z"/><path opacity=".5" d="M44.6 664.7L30.3 500.1l14.3-164.5 19.6 164.5-19.6 164.6z"/><path opacity=".75" d="M44.6 664.7L30.3 500.1l14.3-164.5 19.6 164.5-19.6 164.6z"/><path opacity=".5" d="M70 1000.1h-5.8L46.9 855l-12.6 145.1h-9.8l19.2-220.7L70 1000.1z"/><path opacity=".5" d="M70 1000.1h-5.8L46.9 855l-12.6 145.1h-9.8l19.2-220.7L70 1000.1z"/><path opacity=".5" d="M64.2 1000.1H34.3L46.9 855l17.3 145.1z"/><path opacity=".5" d="M64.2 1000.1H34.3L46.9 855l17.3 145.1z"/><path opacity=".75" d="M64.2 1000.1H34.3L46.9 855l17.3 145.1z"/></g></svg>');
+}
+
+@media (min-width:768px){
+.shapedividers_com-1919::before{
+background-size: 80px 100%;
+background-position: 100% 50%;
+transform: rotateX(180deg);
+}
+}
+
+@media (min-width:1025px){
+.shapedividers_com-1919::before{
+bottom: -0.1vw;
+left: -0.1vw;
+right: -0.1vw;
+top: -0.1vw;
+background-size: 81px 100%;
+background-position: 100% 50%;
+transform: rotateX(180deg);
+}
+}
+
+
+
+
+/* Merch Section */
+.grid-system{
+  padding: 1% 10%;
+  position: relative
+
+}
+
+
+.image-merch{
+  max-width:100%;
+  max-height:100%;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #F2789F;
+
+
+
+}
+
+.inner{
+  padding: 5% 10%;
+  border: 2px outset #F2789F;
+  border-radius: 32px;
+  position: relative;
+  margin: 3% 2%;
+
+}
+
+.container-text{
+  margin-top: 5%;
+  position: relative;
+  height: 50px;
+
+
+}
+
+.merch-name{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.double-image{
+margin-bottom: 40px;
+}
+
+
+
+
+
+.inst-icon{
+  color: #F2789F;
+  position: relative;
+  left: 90px;
+
+
+}
+
+.inst-icon:hover{
+  color: #B000B9;
+}
+
+
+
+
+/* ButtonSection */
+.button-56 {
+  align-items: center;
+  background-color: #F9C5D5;
+  border: 2px solid #F9C5D5;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* center the button */
+  position:absolute;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+.button-56:after {
+  background-color: #F999B7;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #F9C5D5;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+    width: 50%;
+  }
+}
